@@ -27,9 +27,22 @@ A simple Hotel Room Booking REST API built with ASP.NET Core Web API and Entity 
 ```bash
 git clone <your-github-repo-link>
 cd HotelBookingApi
+```
+
+### 2. Restore packages
+```bash
 dotnet restore
+```
+
+### 3. Run the application
+```bash
 dotnet run
+```
+
+### 4. Access the API
+```bash
 https://localhost:<port>/swagger
+```
 
 ## API Endpoints
 GET /api/rooms
